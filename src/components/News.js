@@ -3,9 +3,7 @@ import NewsItem from "./NewsItem";
 import sample from "./sampleOutput.json"
 
 export class News extends Component{
-  
-  
-      state= {
+ state= {
       articles:sample.articles,
       loading:false
 
